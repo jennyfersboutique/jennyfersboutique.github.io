@@ -508,11 +508,16 @@ background: linear-gradient(
 .main-header {
   height: 75vh;
   background: url('../img/header.JPG') no-repeat bottom;
-  min-height: 75%;
+  min-height: 50%;
   background-attachment: fixed;
-  background-size: 100%, 150%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
   position: relative;
+
+
 }
 
 .header-amberglen {
