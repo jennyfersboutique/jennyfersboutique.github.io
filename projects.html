@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KO Contracting · Siding And Roofing Specialists · Portland, Oregon</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="SHORTCUT ICON" type="image/x-icon" href="img/KOMiniLogo.png">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="SheaBee Hand Cream For Shabby Hands">
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <ul class="nav-section nav">
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="projects.html">Our Projects</a></li>
+      <li><a href="#locations">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <header class="main-header" id="our-services">
+    </header>
+      <h2 class="ba-border center t-space">Jennyfer's Boutique</h2>
+      <h2 class="center">Mississippi Ave.</h2>
+      <p class="center">Come down to Mississippi Avenue for a day of exploring one of Portland's most interesting areas.  We are located next to some of Portland's best shops, boutiques, restaurants, and Coffee Shops.</p>
+      <p class="center b-space">Our Boutique is a great place to shop for the latest styles, jewelry, shoes, hats, and more.  We are always changing the inventory to account for Portland's diverse weather patterns, and we bring new styles to Portland from all over the world.  Come and discover us for your self at our store or on or are Online store. </p>
+      
+      <div class="break-div-a">
+        <h2 class="center">Our Hours</h2>
+        <p class="center">Monday - Saturday 11:00am - 6:00pm</p>
+        <p class="center">Sunday 10:00am - 6:00pm<p>
+      </div>
+      <div class="break-div-b">
+        <h2 class="center">Contact Us</h2>
+        <p class="center no-padding"><a href="tel:2082837074">Phone: 208.283.7074 (Business Hours: M-Sa 8-6pm PST)</a></p>
+        <p class="center no-padding">For any other questions regarding orders, information, or hours.</p>
+      </div>
+      <p></p>
+        <div class="Online center">
+         
+        </div>
+        <div class="Hive center">
+          <h3 class="b-border HiveB center">Whether You Are Out of Town Or Just Know What You Want</h3>
+          <h2 class="center"><a href="https://squareup.com/store/jennyfers-boutique-at-mississippi" target="_blank">Order Online Here</a></h2>
+          <p>We offer our entire selection of clothing online for the convenience of shopping on the go.  With our Square store we ensure that your orders are processed securely and conveniently fulfilled quickly</p>
+        </div>
+        <div class="div-break-c">
+          <h3 class="center">Our Store</h3>
+          <p class="center">Come and visit our Mississippi Store</p>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="./img/JB/img1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/JB/img2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/JB/img3.jpg" style="width:100%">
+            <div class="text">
+              <!-- <h3 class=" center b-border">Jennyfer's Boutique</h3>
+              <H3 class="center">Mississippi Ave. Portland Oregon</H3> -->
+            </div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <script type="text/javascript">
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1} 
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none"; 
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block"; 
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+        <div class="social">
+        <p>Follow Us On Social Media    <a href=""><img src="img/insta.png" class="thumb"></a><a href="https://www.facebook.com/Jennyfers-Boutique-823186061048933/" target="_blank"><img src="img/facebook.png" class="thumb"></a></p>
+        </div>
+    </section>
+    <footer>
+    </footer>
+
+
+
+
+
+  </body>
+</html>
+
