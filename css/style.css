@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem; /* 90px/16px  */
+  font-size: 2rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
@@ -463,6 +463,10 @@ a:active {
   .break-b {
     height: 0vh;
   }
+
+h3 {
+    font-size: 1.3em;
+}
 .Hive {
   height: 400px;
   padding: 40px !important;
