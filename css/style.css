@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem; /* 90px/16px  */
+  font-size: 1.3rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
@@ -258,7 +258,7 @@ a:active {
   display: inline-block;
   width: 50%;
   float: left;
-  height: 250px;
+  height: 400px;
 }
 
 .contact-div-b {
@@ -278,7 +278,7 @@ a:active {
   display: inline-block;
   width: 50%;
   float: right;
-  height: 250px;
+  height: 400px;
 }
 
 .rate-descriptions{
@@ -286,14 +286,6 @@ a:active {
   top: -50px;
 }
 
-.break-a {
-  display: block;
-  height: 20vh;
-  background: url('../img/sart.jpg') no-repeat top;
-  background-attachment: fixed;
-  min-height: 50%;
-  background-size: cover;
-}
 
 .OrderNow {
   -webkit-border-radius: 28;
@@ -471,6 +463,19 @@ a:active {
   .break-b {
     height: 0vh;
   }
+.Hive {
+  height: 400px;
+  padding: 40px !important;
+}
+
+.break-div-a, .break-div-b {
+  width: 100%;
+}
+
+.break-div-b {
+  height: 500px;
+}
+
   h1 {  
   font-size: 2rem; /* 90px/16px  */
   border-left: 2px solid #fff;
@@ -480,21 +485,6 @@ a:active {
   background-color: darkgray;
   background-size: 200%, 200%;
 }
-}
-  .online {
-  display: block;
-  height: 40vh !important;
-background: linear-gradient(
-                     rgba(20,20,20, .8), 
-                     rgba(20,20,20, .8)),
-                     url('../img/online.JPG') bottom;;
-
-  width: 100%;
-  min-height: 50%;
-  background-attachment: scroll !important;
-  background-size: 200%, 200% !important;
-  color: white;
-
 }
 .HiveB {
   margin-top: 0px !important;
